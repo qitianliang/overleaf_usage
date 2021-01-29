@@ -34,7 +34,7 @@ FROM sharelatex/sharelatex:2.5.0
 scp -r /c/Windows/Fonts/* user@host:/current/path/fonts
 ```
 
-因为`*.fon`会在build 过程中获取字体full name失败，可以选择删除(不删也可以通过build)
+因为`*.fon`会在build 过程中获取字体full name失败，可以选择删除(不删也可以build通过)
 
 ```
 # ./fonts
