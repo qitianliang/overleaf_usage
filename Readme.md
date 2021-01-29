@@ -45,7 +45,7 @@ rm -rf *.fon
 
 具体说明(相比官方改动)：
 
-|docker-compose.yml|docker-compose-official.yml|说明|
+|docker-compose-official.yml|docker-compose.yml|说明|
 |----|----|----|
 |image: sharelatex/sharelatex|build: .|使用本地Dockerfile build 新镜像 |
 |80:80|port:80|port 为服务所占用的服务器端口|
