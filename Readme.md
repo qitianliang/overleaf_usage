@@ -68,7 +68,14 @@ docker-compose up --build -d
 ```
 > 第一次运行后，管理员浏览器访问ip:port/launchpad,填写admin邮箱（与配置中的邮箱一致）及登陆密码，创建后核验给邮箱发邮件能够成功，就可以将连接共享给你的小伙伴让他们注册使用了。不成功检查一下SMTP设置是否有问题。
 
+![admin-first-time](./pngs/admin-first-time.png)
+![admin-first-time-1](./pngs/admin-first-time-1.png)
+![admin-first-time-2](./pngs/admin-first-time-2.png)
+![admin-first-time-3](./pngs/admin-first-time-3.png)
+
 小伙伴给你的邮箱发邮件，你可以直接按照邮箱地址创建用户，之后大家可以愉快的使用。
+![admin-first-time-4](./pngs/admin-first-time-4.png)
+![admin-create](./pngs/admin-create.png)
 
 ## 关闭服务
 ```
@@ -80,17 +87,9 @@ docker-compose up down
 [论文latex模板](http://gs.xjtu.edu.cn/info/1209/7605.htm)
 
 下载下来，解压缩，重新压缩成zip,即可上传到overleaf上
-
+![latex-upload](./pngs/latex-upload.png)
 选定配置xelatex即可享用。
+![latex](./pngs/latex.PNG)
+![latex-1](./pngs/latex-1.PNG)
 
 教育大数据同学直接给我邮箱发邮件<qitianliang@outlook.com>即可使用。
-
-
-
-
-
-
-
-
-
-
