@@ -79,7 +79,7 @@ docker-compose up --build -d
 
 ## 关闭服务
 ```
-docker-compose up down
+docker-compose down
 ```
 
 ## 西安交通大学论文latex
